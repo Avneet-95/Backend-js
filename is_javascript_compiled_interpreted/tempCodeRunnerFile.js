@@ -1,2 +1,1 @@
-console.log("hi")
-console.lo("hello")
+"use strict";

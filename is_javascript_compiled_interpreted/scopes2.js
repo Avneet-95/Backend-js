@@ -14,3 +14,5 @@ function gun(){
 func();
 gun();
 console.log(content);
+
+// autoglobal is created while executing not parsing
