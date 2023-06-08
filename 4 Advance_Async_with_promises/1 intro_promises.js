@@ -41,6 +41,29 @@ you are giving control of exec function to someone else
 //so creation of promise object is sync in nature 
   
 
+// pending  -> when we create the promise object this is promise state  It represent work in progress
+                
+// fullfiled-> if the operation is compiled successfully
+   
+// rejected->if the op was not successful
+
+// new Promise(f) //creates promise object
+// this f expects a callback function 
+
+new Promise(
+    function(resolve,reject){
+   //inside this function we can write our time consuming task 
+
+    }
+
+    // whenever executor of callback if you call resolve-fulfilled this.state.
+    // reject - rejected and if you dont call anyone promise remains in pending state 
+
+    // with whatever argument we call resolve or rejected  it get assigned to value of property
+
+
+)
+
 
 
 
